@@ -5,12 +5,13 @@ It is using the web API of https://github.com/cve-search/cve-search
 
 It is using a simple MongoDB with the following format (JSON):
 
-```json[{"version": "1.0.1b", "lastcve": "CVE-0000-0000", "vendor": "openssl", "product": "openssl"},
+```
+[{"version": "1.0.1b", "lastcve": "CVE-0000-0000", "vendor": "openssl", "product": "openssl"},
 {"version": "1.0.1f", "lastcve": "CVE-0000-0000", "vendor": "openssl", "product": "openssl"},
 {"version": "1.0.3", "lastcve": "CVE-0000-0000", "vendor": "openssl", "product": "openssl"},
 {"version": "1.0.1d", "lastcve": "CVE-0000-0000", "vendor": "openssl", "product": "openssl"}]
 ```
 For setup of cvenotify just rum 
-```python
+```
 python3 createdb.py
 ```
