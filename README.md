@@ -16,5 +16,10 @@ For setup of cvenotify just run
 python3 createdb.py
 ```
 
+To start cvenotifiy just use
+```
+python3 cvenotify.py
+```
+
 cvenotify sends simple mails with an link to new foud cve-entries. Set up a cronjob e.g. to be up-to-date about new 
 vulnerabilities to your used products.
