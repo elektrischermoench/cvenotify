@@ -18,7 +18,6 @@ def notifiy():
    to = 'foo@foo.bar'
    fro = 'cve-search@foo.bar'
    server = SMTP('adress',587)
-   server.set_debuglevel(1)
    server.ehlo()
    server.starttls()
    server.ehlo()
